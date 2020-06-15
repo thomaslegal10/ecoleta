@@ -1,15 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+// JSX: Sintaxe de XML dentro do JavaScript
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello World!</h1>
-      </header>
-    </div>
+    <h1>Hello World</h1>
   );
 }
 
